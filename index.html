@@ -4,19 +4,15 @@
     <meta charset="UTF-8">
     <title>Variant 4 Layout</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Ваш CSS -->
     <link rel="stylesheet" href="lab5.css">
 </head>
 <body>
 <div class="container">
-
     <div class="block block1">
         <h1 id="block1-title">[Текст блоку 1: "Welcome to My Page"]</h1>
-
         <a href="#" class="create-list-link" data-block="1">
             Додати нумерований список у Блок 1
         </a>
-        <!-- Сюди буде підставлятися форма і/або список -->
         <div class="list-container" id="list-container-1"></div>
     </div>
 
@@ -54,6 +50,20 @@
         </form>
 
         <div id="rhombus-result"></div>
+        <div id="rhombus-calculation">
+            <h3>Обчислення площі ромба</h3>
+            <form id="rhombusForm">
+                <label for="d1">Діагональ 1:</label>
+                <input type="number" id="d1" required>
+                <br>
+                <label for="d2">Діагональ 2:</label>
+                <input type="number" id="d2" required>
+                <br><br>
+                <button type="submit">Обчислити</button>
+            </form>
+            <div id="rhombus-result"></div>
+        </div>
+
     </div>
 
     <div class="block block4">

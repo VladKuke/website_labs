@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+}
+
+.block {
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.block1 {
+    background-color: #cfe2f3;
+    flex: 0 0 100%;
+}
+
+.row1 .block2,
+.row1 .block3 {
+    background-color: #fdebd0;
+    flex: 1;
+}
+
+.row1 .block3 {
+    background-color: #ffffff;
+}
+
+.block4 {
+    background-color: #fdebd0;
+    flex: 0 0 20%;
+}
+
+.row2 {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.block5 {
+    background-color: #d9ead3;
+    flex: 1;
+}
+
+.block6 {
+    background-color: #cfe2f3;
+    flex: 0 0 100%;
+}
